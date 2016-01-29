@@ -13,6 +13,7 @@
 		901473981C59B15500C6F766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901473961C59B15500C6F766 /* Main.storyboard */; };
 		9014739A1C59B15500C6F766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 901473991C59B15500C6F766 /* Assets.xcassets */; };
 		9014739D1C59B15500C6F766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9014739B1C59B15500C6F766 /* LaunchScreen.storyboard */; };
+		901473A61C59BA6C00C6F766 /* MyDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 901473A51C59BA6C00C6F766 /* MyDataStore.m */; };
 		9B95E8A894BE0D8F9C9B6884 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D354F108BCC3D36AE3D3B89 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,8 @@
 		901473991C59B15500C6F766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9014739C1C59B15500C6F766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9014739E1C59B15500C6F766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		901473A41C59BA6C00C6F766 /* MyDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDataStore.h; sourceTree = "<group>"; };
+		901473A51C59BA6C00C6F766 /* MyDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDataStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,8 @@
 		901473811C59B15500C6F766 = {
 			isa = PBXGroup;
 			children = (
+				901473A41C59BA6C00C6F766 /* MyDataStore.h */,
+				901473A51C59BA6C00C6F766 /* MyDataStore.m */,
 				9014738C1C59B15500C6F766 /* FMDBDemo */,
 				9014738B1C59B15500C6F766 /* Products */,
 				503D403C5BA51D6D322B91C1 /* Pods */,
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				901473951C59B15500C6F766 /* ViewController.m in Sources */,
+				901473A61C59BA6C00C6F766 /* MyDataStore.m in Sources */,
 				901473921C59B15500C6F766 /* AppDelegate.m in Sources */,
 				9014738F1C59B15500C6F766 /* main.m in Sources */,
 			);
